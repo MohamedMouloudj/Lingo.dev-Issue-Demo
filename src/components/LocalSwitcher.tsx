@@ -11,8 +11,17 @@ import { useLingoContext } from "@lingo.dev/compiler/react";
 export default function LocaleSwitcher() {
   const { locale, setLocale } = useLingoContext();
 
+  function handleLocaleChange(newLocale: any) {
+    setLocale(newLocale);
+    window.location.reload(); // Manually refresh the page to apply translations
+  }
+
   return (
-    <Select value={locale || "en"} onValueChange={setLocale} defaultValue="en">
+    <Select
+      value={locale || "en"}
+      onValueChange={handleLocaleChange}
+      defaultValue="en"
+    >
       <SelectTrigger className="w-22 h-8 px-2 text-sm rounded-md border border-border bg-background focus:ring-2 focus:ring-primary">
         <SelectValue placeholder="EN" />
       </SelectTrigger>

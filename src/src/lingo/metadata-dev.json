@@ -54,7 +54,7 @@
       "hash": "af0ce7dac903",
       "location": {
         "filePath": "components/LocalSwitcher.tsx",
-        "line": 17,
+        "line": 26,
         "column": 8
       }
     },
@@ -68,7 +68,7 @@
       "hash": "cc05bd6af03a",
       "location": {
         "filePath": "components/LocalSwitcher.tsx",
-        "line": 20,
+        "line": 29,
         "column": 8
       }
     },
@@ -82,7 +82,7 @@
       "hash": "7da2b32c8860",
       "location": {
         "filePath": "components/LocalSwitcher.tsx",
-        "line": 23,
+        "line": 32,
         "column": 8
       }
     },
@@ -96,13 +96,13 @@
       "hash": "99f027ebfab6",
       "location": {
         "filePath": "components/LocalSwitcher.tsx",
-        "line": 26,
+        "line": 35,
         "column": 8
       }
     }
   },
   "stats": {
     "totalEntries": 7,
-    "lastUpdated": "2026-01-21T20:05:28.485Z"
+    "lastUpdated": "2026-01-21T21:53:29.015Z"
   }
 }

@@ -19,6 +19,7 @@ export default async function (): Promise<NextConfig> {
     // Disable pluralization to avoid needing GROQ_API_KEY
     pluralization: {
       enabled: false,
+      model: "groq:llama3-8b-8192",
     },
 
     buildMode: "translate", // Use "translate" for real translations in dev
