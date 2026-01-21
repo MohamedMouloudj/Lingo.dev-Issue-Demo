@@ -1,14 +1,18 @@
 import type { NextConfig } from "next";
-import lingoCompiler from "lingo.dev/compiler";
+import { withLingo } from "@lingo.dev/compiler/next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Your existing Next.js config
 };
 
-export default lingoCompiler.next({
-  sourceRoot: "src",
-  sourceLocale: "en",
-  rsc: true,
-  targetLocales: ["ar", "fr"],
-  models: "lingo.dev",
-})(nextConfig);
+export default async function (): Promise<NextConfig> {
+  return await withLingo(nextConfig, {
+    sourceRoot: "src",
+    sourceLocale: "en",
+    targetLocales: ["ar", "fr"],
+    models: "lingo.dev",
+    dev: {
+      usePseudotranslator: true,
+    },
+  });
+}

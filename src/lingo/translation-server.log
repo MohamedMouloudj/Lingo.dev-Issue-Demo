@@ -1,0 +1,15 @@
+2026-01-21T18:37:03.500Z [INFO] [Lingo.dev] Port 60000 is available, starting new server...
+2026-01-21T18:37:03.537Z [INFO] [Lingo.dev] 🔧 Initializing translator...
+2026-01-21T18:37:03.537Z [DEBUG] [Lingo.dev] Starting translation server on port 60000
+2026-01-21T18:37:03.538Z [INFO] [Lingo.dev] Translation server listening on http://127.0.0.1:60000
+2026-01-21T18:37:03.538Z [INFO] [Lingo.dev] WebSocket server initialized
+2026-01-21T18:37:05.794Z [INFO] [Lingo.dev] Port 60000 is in use, checking if it's a translation server...
+2026-01-21T18:37:05.802Z [INFO] [Lingo.dev] 📥 Received: GET /health
+2026-01-21T18:37:05.803Z [INFO] [Lingo.dev] 🔄 Processing: GET /health
+2026-01-21T18:37:05.803Z [DEBUG] [Lingo.dev] GET /health
+2026-01-21T18:37:05.804Z [INFO] [Lingo.dev] ✅ Found existing translation server at http://127.0.0.1:60000, reusing it
+2026-01-21T18:37:07.130Z [INFO] [Lingo.dev] 📥 Received: GET /health
+2026-01-21T18:37:07.131Z [INFO] [Lingo.dev] 🔄 Processing: GET /health
+2026-01-21T18:37:07.129Z [INFO] [Lingo.dev] Port 60000 is in use, checking if it's a translation server...
+2026-01-21T18:37:07.132Z [DEBUG] [Lingo.dev] GET /health
+2026-01-21T18:37:07.134Z [INFO] [Lingo.dev] ✅ Found existing translation server at http://127.0.0.1:60000, reusing it

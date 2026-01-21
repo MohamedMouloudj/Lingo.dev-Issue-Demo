@@ -1,4 +1,4 @@
-import { LingoProvider, loadDictionary } from "lingo.dev/react/rsc";
+import { LingoProvider } from "@lingo.dev/compiler/react";
 import "./globals.css";
 import LocaleSwitcher from "@/components/LocalSwitcher";
 
@@ -8,7 +8,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <LingoProvider loadDictionary={(locale) => loadDictionary(locale || "en")}>
+    <LingoProvider>
       <html lang="en">
         <body className="antialiased">
           <nav className="w-full flex justify-end items-center">
