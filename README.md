@@ -31,6 +31,4 @@ Because turbopack is the default builder from nextjs 16+ and lingo.dev is not fu
 
 # Overview
 
-useLocale and setLocale are marked as not exported from "@lingo.dev/compiler/react" and causing errors.
-
-![Screenshot of the error](./poc/Screenshot%202026-01-21%20195151.png)
+I have to manually refrsh the page to see the translations applied when using Lingo.dev compiler with Next.js.
