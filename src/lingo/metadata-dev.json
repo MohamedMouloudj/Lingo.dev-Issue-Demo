@@ -1,0 +1,108 @@
+{
+  "entries": {
+    "1ae47ab62d46": {
+      "type": "attribute",
+      "sourceText": "Next.js logo",
+      "context": {
+        "attributeName": "alt",
+        "componentName": "Home",
+        "filePath": "app/page.tsx"
+      },
+      "hash": "1ae47ab62d46",
+      "location": {
+        "filePath": "app/page.tsx",
+        "line": 7,
+        "column": 8
+      }
+    },
+    "6d014235ee6f": {
+      "type": "content",
+      "sourceText": "To get started, edit the page.tsx file.",
+      "context": {
+        "componentName": "Home",
+        "filePath": "app/page.tsx"
+      },
+      "hash": "6d014235ee6f",
+      "location": {
+        "filePath": "app/page.tsx",
+        "line": 16,
+        "column": 10
+      }
+    },
+    "c2e7302936f4": {
+      "type": "content",
+      "sourceText": "Looking for a starting point or more instructions? Head over to <a0>Templates </a0> or the <a1>Learning </a1> center.",
+      "context": {
+        "componentName": "Home",
+        "filePath": "app/page.tsx"
+      },
+      "hash": "c2e7302936f4",
+      "location": {
+        "filePath": "app/page.tsx",
+        "line": 19,
+        "column": 10
+      }
+    },
+    "af0ce7dac903": {
+      "type": "attribute",
+      "sourceText": "EN",
+      "context": {
+        "attributeName": "placeholder",
+        "componentName": "LocaleSwitcher",
+        "filePath": "components/LocalSwitcher.tsx"
+      },
+      "hash": "af0ce7dac903",
+      "location": {
+        "filePath": "components/LocalSwitcher.tsx",
+        "line": 17,
+        "column": 8
+      }
+    },
+    "cc05bd6af03a": {
+      "type": "content",
+      "sourceText": "English",
+      "context": {
+        "componentName": "LocaleSwitcher",
+        "filePath": "components/LocalSwitcher.tsx"
+      },
+      "hash": "cc05bd6af03a",
+      "location": {
+        "filePath": "components/LocalSwitcher.tsx",
+        "line": 20,
+        "column": 8
+      }
+    },
+    "7da2b32c8860": {
+      "type": "content",
+      "sourceText": "French",
+      "context": {
+        "componentName": "LocaleSwitcher",
+        "filePath": "components/LocalSwitcher.tsx"
+      },
+      "hash": "7da2b32c8860",
+      "location": {
+        "filePath": "components/LocalSwitcher.tsx",
+        "line": 23,
+        "column": 8
+      }
+    },
+    "99f027ebfab6": {
+      "type": "content",
+      "sourceText": "Arabic",
+      "context": {
+        "componentName": "LocaleSwitcher",
+        "filePath": "components/LocalSwitcher.tsx"
+      },
+      "hash": "99f027ebfab6",
+      "location": {
+        "filePath": "components/LocalSwitcher.tsx",
+        "line": 26,
+        "column": 8
+      }
+    }
+  },
+  "stats": {
+    "totalEntries": 7,
+    "lastUpdated": "2026-01-21T20:02:28.293Z"
+  }
+}
