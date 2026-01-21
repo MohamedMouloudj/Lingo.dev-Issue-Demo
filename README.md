@@ -1,4 +1,4 @@
-# Overview
+<!-- # Overview
 
 This repo is a demonstrating and siting Lingo.dev some of compiler issues.
 Follow this [Compiler quick start](https://lingo.dev/en/compiler/quick-start) to setup Lingo.dev compiler config or follow the instructions provided.
@@ -27,4 +27,10 @@ Module not found: Can't resolve './locales/dictionary.js'
 ## Nextjs 16+ compatibility Issue
 
 Using latest nextjs version with lingo.dev will not work.
-Because turbopack is the default builder from nextjs 16+ and lingo.dev is not fully compatible with turbopack yet.
+Because turbopack is the default builder from nextjs 16+ and lingo.dev is not fully compatible with turbopack yet. -->
+
+# Overview
+
+useLocale and setLocale are marked as not exported from "@lingo.dev/compiler/react" and causing errors.
+
+![Screenshot of the error](./poc/Screenshot%202026-01-21%20195151.png)
